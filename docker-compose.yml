@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hngxtest:
+    image: ${DOCKER_REGISTRY-}hngxtest
+    build:
+      context: .
+      dockerfile: Dockerfile

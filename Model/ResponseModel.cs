@@ -6,7 +6,7 @@
         public string Current_day { get; set; } = DateTime.Today.DayOfWeek.ToString();
        
         public string Track { get; set; }
-        public string Github_file_url { get; set; } = "";
+        public string Github_file_url { get; set; } = "https://github.com/AyomideAdeyemi/HNGxTest/blob/master/Controllers/HNGxTestController.cs";
         public string Github_repo_url { get; set; } = "https://github.com/AyomideAdeyemi/HNGxTest";
         public DateTime Utc_time { get; set; } = DateTime.UtcNow;
         public int Status_code { get; set; } = 200;

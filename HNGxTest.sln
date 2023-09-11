@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNGxTest", "HNGxTest.csproj", "{0450044C-6698-42E5-888D-0DCBDB7DD4AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HNGxTest", "HNGxTest.csproj", "{0450044C-6698-42E5-888D-0DCBDB7DD4AD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CFB08FDB-B066-4BE3-BAA6-0FE78597524C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0450044C-6698-42E5-888D-0DCBDB7DD4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0450044C-6698-42E5-888D-0DCBDB7DD4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0450044C-6698-42E5-888D-0DCBDB7DD4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB08FDB-B066-4BE3-BAA6-0FE78597524C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB08FDB-B066-4BE3-BAA6-0FE78597524C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB08FDB-B066-4BE3-BAA6-0FE78597524C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB08FDB-B066-4BE3-BAA6-0FE78597524C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
